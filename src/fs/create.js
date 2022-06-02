@@ -2,6 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 
+// wx+ flag open file for reading and writing, but fails if path exists
 
 export const create = async () => {
     const __filename = fileURLToPath(import.meta.url);
